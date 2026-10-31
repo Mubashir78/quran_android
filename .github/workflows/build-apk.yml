@@ -1,0 +1,38 @@
+name: Debug APK
+
+on:
+  push:
+    branches:
+      - feature/cebuano-translation
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the Code
+        uses: actions/checkout@v7
+
+      - name: Setup JDK
+        uses: actions/setup-java@v6
+        with:
+          distribution: zulu
+          java-version-file: .github/workflows/.java-version
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Build debug APK
+        run: ./gradlew assembleMadaniDebug
+
+      - name: Run tests
+        run: ./gradlew testMadaniDebug -PdisableFirebase
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v7
+        with:
+          name: quran-android-madani-debug
+          path: app/build/outputs/apk/madani/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14
