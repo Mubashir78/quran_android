@@ -1,0 +1,46 @@
+name: Release APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build signed APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the Code
+        uses: actions/checkout@v7
+
+      - name: Setup JDK
+        uses: actions/setup-java@v6
+        with:
+          distribution: zulu
+          java-version-file: .github/workflows/.java-version
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Decode keystore
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/signing"
+          echo -n "$KEYSTORE_BASE64" | base64 -d > "$GITHUB_WORKSPACE/signing/quran-main.jks"
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+
+      - name: Build release APK
+        run: >
+          ./gradlew assembleMadaniRelease -PdisableFirebase
+          -PSTORE_FILE="$GITHUB_WORKSPACE/signing/quran-main.jks"
+          -PSTORE_PASSWORD="$STORE_PASSWORD"
+          -PKEY_ALIAS="quranmain"
+          -PKEY_PASSWORD="$STORE_PASSWORD"
+        env:
+          STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v7
+        with:
+          name: quran-android-madani-release
+          path: app/build/outputs/apk/madani/release/*.apk
+          if-no-files-found: error
+          retention-days: 90
