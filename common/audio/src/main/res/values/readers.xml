@@ -89,4 +89,11 @@
   <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
   <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
   <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+  <string translatable="false" name="qari_abdulmuhsin_qasim_gapped">AbdulMuhsin al Qasim (gapped)</string>
+  <string translatable="false" name="qari_fares_abbad_gapped">Fares Abbad (gapped)</string>
+  <string translatable="false" name="qari_sahl_yaseen_gapped">Sahl Yaseen (gapped)</string>
+  <string translatable="false" name="qari_salah_budair_gapped">Salah Budair (gapped)</string>
+  <string translatable="false" name="qari_abdullah_matroud_gapped">Abdullah Matroud (gapped)</string>
+  <string translatable="false" name="qari_ibrahim_alakhdar_gapped">Ibrahim Al-Akhdar (gapped)</string>
+  <string translatable="false" name="qari_husary_muallim_gapped">Husary (Muallim) (gapped)</string>
 </resources>

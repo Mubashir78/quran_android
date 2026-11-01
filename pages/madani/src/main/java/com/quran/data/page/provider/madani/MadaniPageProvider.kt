@@ -216,7 +216,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         21,
-        audioR.string.qari_abdullah_matroud_gapless,
+        audioR.string.qari_abdullah_matroud_gapped,
         url = "https://everyayah.com/data/Abdullah_Matroud_128kbps/",
         path = "abdullah_matroud",
         hasGaplessAlternative = false,
@@ -280,7 +280,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         29,
-        audioR.string.qari_fares_abbad_gapless,
+        audioR.string.qari_fares_abbad_gapped,
         url = "https://everyayah.com/data/Fares_Abbad_64kbps/",
         path = "fares_abbad",
         hasGaplessAlternative = false,
@@ -288,7 +288,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         30,
-        audioR.string.qari_husary_muallim_gapless,
+        audioR.string.qari_husary_muallim_gapped,
         url = "https://everyayah.com/data/Husary_Muallim_128kbps/",
         path = "husary_muallim",
         hasGaplessAlternative = false,
@@ -296,7 +296,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         31,
-        audioR.string.qari_ibrahim_alakhdar_gapless,
+        audioR.string.qari_ibrahim_alakhdar_gapped,
         url = "https://everyayah.com/data/Ibrahim_Akhdar_32kbps/",
         path = "ibrahim_akhdar",
         hasGaplessAlternative = false,
@@ -328,7 +328,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         35,
-        audioR.string.qari_abdulmuhsin_qasim_gapless,
+        audioR.string.qari_abdulmuhsin_qasim_gapped,
         url = "https://everyayah.com/data/Muhsin_Al_Qasim_192kbps/",
         path = "muhsin_al_qasim",
         hasGaplessAlternative = false,
@@ -352,7 +352,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         38,
-        audioR.string.qari_sahl_yaseen_gapless,
+        audioR.string.qari_sahl_yaseen_gapped,
         url = "https://everyayah.com/data/Sahl_Yassin_128kbps/",
         path = "sahl_yassin",
         hasGaplessAlternative = false,
@@ -368,7 +368,7 @@ class MadaniPageProvider : PageProvider {
       ),
       Qari(
         40,
-        audioR.string.qari_salah_budair_gapless,
+        audioR.string.qari_salah_budair_gapped,
         url = "https://everyayah.com/data/Salah_Al_Budair_128kbps/",
         path = "salah_al_budair",
         hasGaplessAlternative = false,
@@ -381,6 +381,198 @@ class MadaniPageProvider : PageProvider {
         path = "yaser_salamah",
         hasGaplessAlternative = false,
         db = null
+      ),
+      Qari(
+        42,
+        audioR.string.qari_qatami_gapless,
+        url = "https://download.quranicaudio.com/quran/nasser_bin_ali_alqatami/",
+        path = "qatami_gapless",
+        hasGaplessAlternative = false,
+        db = "qatami"
+      ),
+      Qari(
+        43,
+        audioR.string.qari_shatri_gapless,
+        url = "https://download.quranicaudio.com/quran/abu_bakr_ash-shaatree/",
+        path = "shatri_gapless",
+        hasGaplessAlternative = false,
+        db = "shatri"
+      ),
+      Qari(
+        44,
+        audioR.string.qari_shuraym_gapless,
+        url = "https://download.quranicaudio.com/quran/sa3ood_al-shuraym/",
+        path = "shuraym_gapless",
+        hasGaplessAlternative = false,
+        db = "shuraym"
+      ),
+      Qari(
+        45,
+        audioR.string.qari_hani_rifai_gapless,
+        url = "https://download.quranicaudio.com/quran/rifai/",
+        path = "hani_rifai_gapless",
+        hasGaplessAlternative = false,
+        db = "hani_rifai"
+      ),
+      Qari(
+        46,
+        audioR.string.qari_yasser_dussary_gapless,
+        url = "https://download.quranicaudio.com/quran/yasser_ad-dussary/",
+        path = "yasser_dussary_gapless",
+        hasGaplessAlternative = false,
+        db = "yasser_dussary"
+      ),
+      Qari(
+        47,
+        audioR.string.qari_raad_al_kurdi_gapless,
+        url = "https://download.quranicaudio.com/quran/raad_mohammad_al_kurdi/mp3/",
+        path = "raad_al_kurdi_gapless",
+        hasGaplessAlternative = false,
+        db = "raad_al_kurdi"
+      ),
+      Qari(
+        48,
+        audioR.string.qari_luhaidan_gapless,
+        url = "https://download.quranicaudio.com/quran/muhammad_alhaidan/",
+        path = "luhaidan_gapless",
+        hasGaplessAlternative = false,
+        db = "muhammad_al_luhaidan"
+      ),
+      Qari(
+        49,
+        audioR.string.qari_idrees_abkar_gapless,
+        url = "https://download.quranicaudio.com/quran/idrees_abkar/",
+        path = "idrees_abkar_gapless",
+        hasGaplessAlternative = false,
+        db = "idrees_abkar"
+      ),
+      Qari(
+        50,
+        audioR.string.qari_abdulmuhsin_qasim_gapless,
+        url = "https://download.quranicaudio.com/quran/abdul_muhsin_alqasim/",
+        path = "abdulmuhsin_alqasim_gapless",
+        hasGaplessAlternative = false,
+        db = "abdul_muhsin_alqasim"
+      ),
+      Qari(
+        51,
+        audioR.string.qari_minshawi_mujawwad_gapless,
+        url = "https://download.quranicaudio.com/quran/minshawi_mujawwad/",
+        path = "minshawi_mujawwad_gapless",
+        hasGaplessAlternative = false,
+        db = "minshawi_mujawwad"
+      ),
+      Qari(
+        52,
+        audioR.string.qari_husary_mujawwad_gapless,
+        url = "https://download.quranicaudio.com/quran/generated/husary_mujawwad/",
+        path = "husary_mujawwad_gapless",
+        hasGaplessAlternative = false,
+        db = "husary_mujawwad"
+      ),
+      Qari(
+        53,
+        audioR.string.qari_husary_muallim_gapless,
+        url = "https://download.quranicaudio.com/quran/husary_muallim/",
+        path = "husary_muallim_gapless",
+        hasGaplessAlternative = false,
+        db = "husary_muallim"
+      ),
+      Qari(
+        54,
+        audioR.string.qari_abdullah_matroud_gapless,
+        url = "https://download.quranicaudio.com/quran/abdullah_matroud/",
+        path = "matroud_gapless",
+        hasGaplessAlternative = false,
+        db = "abdullah_matroud"
+      ),
+      Qari(
+        55,
+        audioR.string.qari_bandar_baleela_gapless,
+        url = "https://download.quranicaudio.com/quran/bandar_baleela/",
+        path = "bandar_baleela_gapless",
+        hasGaplessAlternative = false,
+        db = "bandar_baleela"
+      ),
+      Qari(
+        56,
+        audioR.string.qari_ibrahim_alakhdar_gapless,
+        url = "https://download.quranicaudio.com/quran/ibrahim_al_akhdar/",
+        path = "ibrahim_alakhdar_gapless",
+        hasGaplessAlternative = false,
+        db = "ibrahim_alakhdar"
+      ),
+      Qari(
+        57,
+        audioR.string.qari_sahl_yaseen_gapless,
+        url = "https://download.quranicaudio.com/quran/sahl_yaaseen/",
+        path = "sahl_yaseen_gapless",
+        hasGaplessAlternative = false,
+        db = "sahl_yaseen"
+      ),
+      Qari(
+        58,
+        audioR.string.qari_salah_budair_gapless,
+        url = "https://download.quranicaudio.com/quran/salahbudair/",
+        path = "salah_budair_gapless",
+        hasGaplessAlternative = false,
+        db = "salah_budair"
+      ),
+      Qari(
+        59,
+        audioR.string.qari_fares_abbad_gapless,
+        url = "https://download.quranicaudio.com/quran/fares/",
+        path = "fares_abbad_gapless",
+        hasGaplessAlternative = false,
+        db = "fares_abbad"
+      ),
+      Qari(
+        60,
+        audioR.string.qari_abdulaziz_zahrani_gapless,
+        url = "https://download.quranicaudio.com/quran/abdulaziz_bin_saleh_alzahrani/",
+        path = "abdulaziz_zahrani_gapless",
+        hasGaplessAlternative = false,
+        db = "abdulaziz_zahrani"
+      ),
+      Qari(
+        61,
+        audioR.string.qari_mostafa_ismaeel_gapless,
+        url = "https://download.quranicaudio.com/quran/mostafa_ismaeel/",
+        path = "mostafa_ismaeel_gapless",
+        hasGaplessAlternative = false,
+        db = "mostafa_ismaeel"
+      ),
+      Qari(
+        62,
+        audioR.string.qari_abdurrashid_sufi_gapless,
+        url = "https://download.quranicaudio.com/quran/abdurrashid_sufi/",
+        path = "abdurrashid_sufi_gapless",
+        hasGaplessAlternative = false,
+        db = "abdurrashid_sufi"
+      ),
+      Qari(
+        63,
+        audioR.string.qari_walk_gapless,
+        url = "https://download.quranicaudio.com/quran/abdullah_basfar_w_ibrahim_walk_si/",
+        path = "ibrahim_walk_gapless",
+        hasGaplessAlternative = false,
+        db = "ibrahim_walk"
+      ),
+      Qari(
+        64,
+        audioR.string.qari_abdulbaset_mujawwad_gapless,
+        url = "https://download.quranicaudio.com/quran/abdulbaset_mujawwad/",
+        path = "abdulbaset_mujawwad_gapless",
+        hasGaplessAlternative = false,
+        db = "abdul_basit_mujawwad"
+      ),
+      Qari(
+        65,
+        audioR.string.qari_abdulbaset_gapless,
+        url = "https://download.quranicaudio.com/quran/abdul_basit_murattal/",
+        path = "abdulbaset_gapless",
+        hasGaplessAlternative = false,
+        db = "abdul_basit_murattal"
       )
     )
   }
