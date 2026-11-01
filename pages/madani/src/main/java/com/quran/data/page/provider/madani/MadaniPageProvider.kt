@@ -205,6 +205,182 @@ class MadaniPageProvider : PageProvider {
         path = "yasser_ad_dussary",
         hasGaplessAlternative = false,
         db = null
+      ),
+      Qari(
+        20,
+        audioR.string.qari_juhany_gapless,
+        url = "https://everyayah.com/data/Abdullaah_3awwaad_Al-Juhaynee_128kbps/",
+        path = "abdullah_al_juhany",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        21,
+        audioR.string.qari_abdullah_matroud_gapless,
+        url = "https://everyayah.com/data/Abdullah_Matroud_128kbps/",
+        path = "abdullah_matroud",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        22,
+        audioR.string.qari_ahmad_nauina_gapless,
+        url = "https://everyayah.com/data/Ahmed_Neana_128kbps/",
+        path = "ahmed_neana",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        23,
+        audioR.string.qari_ajamy_gapless,
+        url = "https://everyayah.com/data/ahmed_ibn_ali_al_ajamy_128kbps/",
+        path = "ahmed_ibn_ali_al_ajamy",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        24,
+        audioR.string.qari_akram_al_alaqmi,
+        url = "https://everyayah.com/data/Akram_AlAlaqimy_128kbps/",
+        path = "akram_al_alaqimy",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        25,
+        audioR.string.qari_ali_jaber_gapless,
+        url = "https://everyayah.com/data/Ali_Jaber_64kbps/",
+        path = "ali_jaber",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        26,
+        audioR.string.qari_ali_hajjaj_alsouasi_gapless,
+        url = "https://everyayah.com/data/Ali_Hajjaj_AlSuesy_128kbps/",
+        path = "ali_hajjaj_alsuesy",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        27,
+        audioR.string.qari_ayman_suwaid_gapped,
+        url = "https://everyayah.com/data/Ayman_Sowaid_64kbps/",
+        path = "ayman_sowaid",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        28,
+        audioR.string.qari_aziz_alili_gapless,
+        url = "https://everyayah.com/data/aziz_alili_128kbps/",
+        path = "aziz_alili",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        29,
+        audioR.string.qari_fares_abbad_gapless,
+        url = "https://everyayah.com/data/Fares_Abbad_64kbps/",
+        path = "fares_abbad",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        30,
+        audioR.string.qari_husary_muallim_gapless,
+        url = "https://everyayah.com/data/Husary_Muallim_128kbps/",
+        path = "husary_muallim",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        31,
+        audioR.string.qari_ibrahim_alakhdar_gapless,
+        url = "https://everyayah.com/data/Ibrahim_Akhdar_32kbps/",
+        path = "ibrahim_akhdar",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        32,
+        audioR.string.qari_khalifa_taniji_gapless,
+        url = "https://everyayah.com/data/khalefa_al_tunaiji_64kbps/",
+        path = "khalefa_al_tunaiji",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        33,
+        audioR.string.qari_khalid_qahtani_gapless,
+        url = "https://everyayah.com/data/Khaalid_Abdullaah_al-Qahtaanee_192kbps/",
+        path = "khaalid_abdullaah_al_qahtaanee",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        34,
+        audioR.string.qari_mahmoud_ali_albana_gapless,
+        url = "https://everyayah.com/data/mahmoud_ali_al_banna_32kbps/",
+        path = "mahmoud_ali_al_banna",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        35,
+        audioR.string.qari_abdulmuhsin_qasim_gapless,
+        url = "https://everyayah.com/data/Muhsin_Al_Qasim_192kbps/",
+        path = "muhsin_al_qasim",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        36,
+        audioR.string.qari_qatami_gapless,
+        url = "https://everyayah.com/data/Nasser_Alqatami_128kbps/",
+        path = "nasser_alqatami",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        37,
+        audioR.string.qari_nabil_rifa3i_gapless,
+        url = "https://everyayah.com/data/Nabil_Rifa3i_48kbps/",
+        path = "nabil_rifa3i",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        38,
+        audioR.string.qari_sahl_yaseen_gapless,
+        url = "https://everyayah.com/data/Sahl_Yassin_128kbps/",
+        path = "sahl_yassin",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        39,
+        audioR.string.qari_salah_bukhatir_gapless,
+        url = "https://everyayah.com/data/Salaah_AbdulRahman_Bukhatir_128kbps/",
+        path = "salaah_abdulrahman_bukhatir",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        40,
+        audioR.string.qari_salah_budair_gapless,
+        url = "https://everyayah.com/data/Salah_Al_Budair_128kbps/",
+        path = "salah_al_budair",
+        hasGaplessAlternative = false,
+        db = null
+      ),
+      Qari(
+        41,
+        audioR.string.qari_yasser_salama_hadr_gapless,
+        url = "https://everyayah.com/data/Yaser_Salamah_128kbps/",
+        path = "yaser_salamah",
+        hasGaplessAlternative = false,
+        db = null
       )
     )
   }
